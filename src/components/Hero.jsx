@@ -4,7 +4,7 @@ import {discount, robot} from '../Assets';
 import GetStarted from './GetStarted';
 
 const Hero = () =>(
-    <section id='#home' className={`flex flex-col md:flex-row ${styles.paddingY}  `}>
+    <section id='#home' className={`flex flex-col md:flex-row ${styles.paddingY} ${styles.paddingX}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col `}>
         <div className='flex flex-row items-center py-[6px]  bg-discount-gradient rounded-[10px] mb-2'>
           <img src={discount} alt="discount" className='w-[32px] h-[32px]' />
